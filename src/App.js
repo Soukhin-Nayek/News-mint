@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import Navbar from './component/Navbar';
 import News from './component/News';
-export default class App extends Component {
+export class App extends Component {
   render() {
     return (
       <>
@@ -32,3 +32,5 @@ export default class App extends Component {
     )
   }
 }
+
+export default App;
