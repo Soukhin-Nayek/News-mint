@@ -10,10 +10,9 @@ import {
 import Navbar from './component/Navbar';
 import News from './component/News';
 export default class App extends Component {
-  c='sou';
-
   render() {
     return (
+      <>
       <Router>
         <div>
           <Navbar/>
@@ -29,6 +28,7 @@ export default class App extends Component {
           </Routes>
         </div>
       </Router>
+    </>
     )
   }
 }
